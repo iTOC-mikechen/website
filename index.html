@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+        <meta charset="utf-8">
+        <meta content="IE=edge" http-equiv="X-UA-Compatible">
+        <meta content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1.0, minimum-scale=1.0, user-scalable=0,user-scalable=no"
+              name="viewport">
+        <title>艾提欧斯软件分享、交易平台(iTOC Software Shares Trade Platform)</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="css/index.css" rel="stylesheet" type="text/css">
+        <meta content="软件分享、软件下载、软件销售、软件购买、艾提欧斯、艾提欧斯软件平台、艾提欧斯软件" name="description">
+</head>
+
+<body id="iTOCsoftwarePlatform_index">
+<div id="loginXregin" style="display: none;">
+        <form accept-charset="UTF-8" action="" enctype="application/x-www-form-urlencoded" id="login" method="post"
+              title="登录界面">
+                <p>账号：
+                        <input form="login" id="loginName" name="loginName" type="text">
+                        &nbsp;
+                        &nbsp; <span id="loginNameCheck"></span></p>
+                <p>密码：
+                        <input form="login" id="loginPswd" name="loginPswd" type="password">
+                        &nbsp;
+                        &nbsp; <span></span></p>
+                <p>
+                        <input form="login" id="loginButt" name="loginButt" type="button" value="登录">
+                        <input id="loginXreginClose_1" name="loginXreginClose" type="button" value="关闭">
+                </p>
+                <p>没有账号，点击立即<a>注册</a></p>
+        </form>
+        <form accept-charset="UTF-8" action="" enctype="application/x-www-form-urlencoded" id="regin" method="post"
+              title="注册界面">
+                <p>输入你想要的账户名称：
+                        <input form="regin" id="reginName" name="reginName" type="text">
+                        &nbsp;
+                        &nbsp; <span id="reginNameCheck"></span></p>
+                <p>输入你想要的账户密码：
+                        <input form="regin" id="reginPswd" name="reginPswd" type="password">
+                        &nbsp;
+                        &nbsp; <span></span></p>
+                <p>
+                        <input form="regin" id="reginButt" name="reginButt" type="button" value="注册">
+                        <input id="loginXreginClose_2" name="loginXreginClose" type="button" value="关闭">
+                </p>
+                <p>拥有账号，点击立即<a>登录</a></p>
+        </form>
+</div>
+<div id="shopCarlistContent" style="display: none;">
+        <div id="downloadXshopCarsDialog">
+                <div>
+                        <p>下载、购物车列表</p>
+                        <input onClick="closeShopCars()" type="button" value="×">
+                </div>
+                <div>
+                        <table border="0" cellpadding="0" cellspacing="0" width="200">
+                                <thead>
+                                <tr>
+                                        <th>软件名称</th>
+                                        <th>购买数量</th>
+                                        <th>产品单价</th>
+                                        <th>付费类型</th>
+                                        <th>所属分类</th>
+                                        <th>产品总价</th>
+                                        <th>产品编码</th>
+                                        <th>操作</th>
+                                        <th style="display: none">&nbsp;</th>
+                                </tr>
+                                </thead>
+                                <tbody id="shopCarlistPoint">
+                                </tbody>
+                        </table>
+                </div>
+        </div>
+</div>
+<div id="supplyXshare" style="display: none">
+        <div>
+                <div><p>分享、发行</p></div>
+                <div>
+                        <div></div>
+                        <div></div>
+                </div>
+        </div>
+</div>
+<div id="shopDetics">
+
+</div>
+<nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                        <button aria-expanded="false" class="navbar-toggle collapsed" data-target="#inverseNavbar1"
+                                data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span><span
+                                        class="icon-bar"></span><span class="icon-bar"></span><span
+                                        class="icon-bar"></span></button>
+                        <a class="navbar-brand" id="iTOCsoftwarePlatform_index_nav_logo">艾提欧斯软件分享、交易平台<br>
+                                (iTOC Software Shares Trade Platform)</a></div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="inverseNavbar1">
+                        <ul class="nav navbar-nav navbar-right" id="iTOCsoftwarePlatform_index_nav_menu_item">
+                                <li id="iTOCsoftwarePlatform_index_nav_menu_item_linkhome"><a>首页</a></li>
+                                <li id="iTOCsoftwarePlatform_index_nav_menu_item_freesoftware"><a>免费软件</a></li>
+                                <li id="iTOCsoftwarePlatform_index_nav_menu_item_paidsoftware"><a>付费软件</a></li>
+                                <li class="dropdown" id="iTOCsoftwarePlatform_index_nav_menu_item_loginXregin"><a
+                                                aria-expanded="false" aria-haspopup="true" class="dropdown-toggle"
+                                                data-toggle="dropdown" role="button">登录&amp;注册</a>
+                                        <ul class="dropdown-menu" id="userOperBrd">
+                                                <li><a onClick="openShopCars();">我的下载、购物车列表</a></li>
+                                                <li><a>供应、分享</a></li>
+                                                <li class="divider" role="separator"></li>
+                                                <li><a>退出登录</a></li>
+                                        </ul>
+                                </li>
+
+                        </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+</nav>
+<div id="iTOCsoftwarePlatform_index_content">
+        <div class="pageCont" id="itocIndex">
+                <div id="iTOCsoftwarePlatform_index_bannerConts">
+                        <div id="iTOCsoftwarePlatform_index_bannerLRBnavgin"><a>&#8249;</a><a>&#8250;</a></div>
+                        <div id="iTOCsoftwarePlatform_index_bannerItemGroup"></div>
+                </div>
+                <br>
+                <div id="SoftwareHotContent">
+                        <div id="Hotfreesoftwarelist">
+                                <h2>免费软件热门下载榜</h2>
+                                <ul>
+                                </ul>
+                        </div>
+                        <div id="Hotpaydsoftwarelist">
+                                <h2>付费软件购买销量榜</h2>
+                                <ul>
+                                </ul>
+                        </div>
+                </div>
+        </div>
+        <div class="pageCont" id="freesoftwarelist">
+                <div>
+                        <ul>
+                        </ul>
+                </div>
+                <div>
+                        <ul>
+                        </ul>
+                </div>
+        </div>
+        <div class="pageCont" id="paydsoftwarelist">
+                <div>
+                        <ul>
+                        </ul>
+                </div>
+                <div>
+                        <ul>
+                        </ul>
+                </div>
+        </div>
+</div>
+<footer id="iTOCsoftwarePlatform_index_footer"></footer>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/common/common.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

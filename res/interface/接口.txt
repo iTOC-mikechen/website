@@ -1,0 +1,19 @@
+﻿接口文档
+
+website		//用来接收传入的数据库地址
+getNewMainPage	//最新主页内容请求接口
+loginStore		//用户登录商店请求接口
+reginStore		//用户注册商店请求接口
+userShopCars	//用户购物车数据请求接口
+detcc		//检测指令接口请求
+getNewFreePage	//获取免费软件页面内容
+getNewPaydPage	//获取付费软件页面内容
+
+loginName		//传入要登录的账户接口
+loginPswd		//传入要登录的密码接口
+
+reginName		//传入要注册的账户接口
+reginPswd		//传入要注册的密码接口
+
+split		//数据输出分隔符传入接口
+

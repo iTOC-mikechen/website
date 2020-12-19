@@ -1,0 +1,317 @@
+@charset "utf-8";
+
+*{
+	cursor: url('../res/curs/273.png');
+}
+
+#loginXregin {
+    position: fixed !important;
+    z-index: 1000000;
+    flex: 1;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.32);
+}
+
+#loginXregin > form {
+    display: none;
+    flex-direction: column;
+    border-radius: 7px;
+    box-shadow: 0px 0px 10px 7px black;
+    justify-content: space-around;
+    align-items: center;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+    background-color: whitesmoke;
+    width: 600px;
+    height: 400px;
+}
+
+#loginXregin > form > p > a {
+    color: yellowgreen;
+    cursor: pointer;
+}
+
+#userOperBrd > ul {
+    display: flex;
+    padding: 0px !important;
+    list-style: none !important;
+}
+
+#userOperBrd > ul > li {
+    display: flex;
+    padding: 0px;
+    list-style: none;
+}
+
+#shopCarlistContent{
+	position: fixed !important;
+    z-index: 1000000;
+    flex: 1;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.32);
+}
+#downloadXshopCarsDialog{
+	position: fixed;
+	width:700px;
+	height:500px;
+	left:0px;
+	top:0px;
+	right:0px;
+	bottom: 0px;
+	margin:auto;
+	background-color:whitesmoke;
+	flex-direction: column;
+	flex:1;
+}
+#downloadXshopCarsDialog>div{
+	display: flex;
+}
+
+#downloadXshopCarsDialog>div:nth-of-type(1){
+	display: flex;
+	justify-content: space-between;
+	height:48px;
+	padding: 7px;
+	align-items: center;
+}
+#downloadXshopCarsDialog>div:nth-of-type(1)>p{
+	display: inline-flex;
+	line-height: 0px;
+	font-size:16px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+#downloadXshopCarsDialog>div:nth-of-type(1)>input{
+	display: inline-flex;
+	font-size:24px;
+	height:32px;
+	line-height: 0px;
+}
+
+#downloadXshopCarsDialog>div:nth-of-type(2){
+	display: flex;
+	width:100%;
+	position: absolute;
+    bottom: 0px;
+    top: 48px;
+}
+#downloadXshopCarsDialog>div:nth-of-type(2)>table{
+	display: flex;
+	height:100%;
+	width:100%;
+	flex-direction: column;
+}
+#downloadXshopCarsDialog>div:nth-of-type(2)>table>thead{
+	display: flex;
+	align-items: center;
+	width:100%;
+	height:32px;
+	flex:1;
+}
+#downloadXshopCarsDialog>div:nth-of-type(2)>table>thead>tr{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width:100%;
+}
+#downloadXshopCarsDialog>div:nth-of-type(2)>table>thead>tr>th{
+	display: flex;
+	width:100%;
+	height:100%;
+	flex:1;
+	justify-content: center;
+}
+#downloadXshopCarsDialog>div:nth-of-type(2)>table>tbody{
+	display: flex;
+	flex-direction: column;
+	width:100%;
+	flex:9;
+}
+#downloadXshopCarsDialog>div:nth-of-type(2)>table>tbody>tr{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width:100%;
+}
+#downloadXshopCarsDialog>div:nth-of-type(2)>table>tbody>tr>td{
+	display: flex;
+	width:100%;
+	height:100%;
+	flex:1;
+	justify-content: center;
+}
+
+#supplyXshare{
+	position: fixed !important;
+    z-index: 1000000;
+    flex: 1;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.32);
+}
+
+#iTOCsoftwarePlatform_index {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+#iTOCsoftwarePlatform_index_nav_logo {
+    padding: 7px;
+    font-family: "simsun";
+    font-size: 1.5rem !important;
+    text-align: center;
+}
+
+#iTOCsoftwarePlatform_index_content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex: 1;
+    flex-direction: column;
+}
+
+#iTOCsoftwarePlatform_index_bannerConts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 400px !important;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    justify-content: center;
+    position: relative;
+}
+
+#iTOCsoftwarePlatform_index_bannerLRBnavgin {
+    width: 100%;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#iTOCsoftwarePlatform_index_bannerLRBnavgin > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: transparent;
+    font-size: 64px;
+    text-decoration: none !important;
+}
+
+#iTOCsoftwarePlatform_index_bannerLRBnavgin > a:hover {
+    color: rgba(172, 171, 171, 0.32);
+}
+
+#iTOCsoftwarePlatform_index_bannerItemGroup {
+    display: flex;
+    position: absolute;
+    height: 64px;
+    bottom: 0px;
+}
+
+.pageCont{
+	display: flex;
+	flex-direction: column;
+}
+
+#itocIndex{
+	width:100%;
+	height:100%;
+}
+
+#SoftwareHotContent {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+	height:100%;
+}
+
+#SoftwareHotContent > div {
+    margin: 0.5rem;
+	width:100%;
+	height:100%;
+}
+
+#SoftwareHotContent > div > ul {
+    display: flex;
+	flex-direction: column;
+    width: 100%!important;
+    height: 100%!important;
+    list-style: none !important;
+    margin: 0px;
+    padding: 0px;
+}
+
+#SoftwareHotContent > div > ul > li {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%!important;
+    height: 64px!important;
+    list-style: none !important;
+    margin: 0px;
+    padding: 0px;
+}
+
+#SoftwareHotContent > div > ul > li:hover {
+    background-color: dodgerblue;
+}
+
+.hotfreescont{}
+.hotpaydscont{}
+
+
+
+#freesoftwarelist {
+	display: flex;
+    width: 100%;
+    height: 500px;
+}
+.freeSofttypeListConts{
+	list-style: none;
+}
+
+
+#paydsoftwarelist {
+	display: flex;
+    width: 100%;
+    height: 500px;
+}
+.PaydSofttypeListConts{
+	list-style: none;
+}
+
+
+@media screen and (orientation: portrait) {
+    #SoftwareHotContent {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #SoftwareHotContent > div {
+        margin: 1rem;
+    }
+    #freesoftwarelist {
+        border: 1px solid;
+        width: 99%;
+        height: 500px;
+    }
+    #paydsoftwarelist {
+        border: 1px solid;
+        width: 99%;
+        height: 500px;
+    }
+}
